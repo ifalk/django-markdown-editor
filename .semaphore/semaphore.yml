@@ -37,5 +37,5 @@ blocks:
             - python3 manage.py check --deploy
         - name: Style check
           commands:
-            - pip3 install flake8
+            - pip install flake8
             - flake8 martor_demo/ --max-line-length=127
